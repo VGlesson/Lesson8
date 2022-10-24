@@ -33,8 +33,8 @@ namespace Task2
                     while (s != null) ;
                     sr.Close();
                     using (StreamWriter sw = new StreamWriter(path)) ;
-                    sr.ReadLine();
-                    sr.Close();
+                    Console.WriteLine(s);
+                    Console.ReadKey();
                 }
             }
         }
